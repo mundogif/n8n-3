@@ -3,4 +3,4 @@ startCommand = "n8n start"
 healthcheckPath = "/healthz"
 healthcheckTimeout = 300
 restartPolicyType = "on_failure"
-restartPolicyMaxRetries = 0
+restartPolicyMaxRetries = 3

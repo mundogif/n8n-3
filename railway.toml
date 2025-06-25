@@ -1,5 +1,6 @@
 [deploy]
-startCommand = "n8n migrate:up"
+startCommand = "n8n start"
+postDeployCommand = "n8n migrate:up"
 healthcheckPath = "/"
 healthcheckTimeout = 300
 restartPolicyType = "on_failure"

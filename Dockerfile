@@ -10,4 +10,3 @@ ENV DB_POSTGRESDB_PASSWORD=senha
 ENV N8N_ENCRYPTION_KEY=sua_chave_aqui
 
 CMD ["n8n start"]
-
